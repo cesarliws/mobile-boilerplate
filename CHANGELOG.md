@@ -1,8 +1,20 @@
 == HEAD
 
+* Remove mobile-bookmark-bubble.
+* Remove conditional comment for Windows Phone 7
+* Update jQuery to v2.1.0
+* Update Normalize.css to v3.0.0
+* Update to Apache Server Configs 2.2.0.
+* Option to add canonical link to desktop site. (#204)
+* Redesign 404 page (#202)
+* Update to Modernizr 2.7.1 (#201)
+* Hide URL Bar in iOS7 (#199)
+* Add to homescreen support for Chrome Mobile (#196)
+* Update to Modernizr 2.7.0 (#195)
+* Update Google Analytics snippet to Universal Analytics (#193)
+* Fixed `MBP.preventZoom` not limited to iOS devices and causing android problems (#190)
 * Fixed `MBP.startupImage` causing width issues on iOS 7 (#189)
 * Update to Normalize.css 2.1.3 (#188)
-* Update to Apache Server Configs 1.1.0
 * Add jQuery Source Maps (#184)
 * Update to jQuery 2.0.3 (#185)
 * Update to Normalize.css 2.1.2 (#181)

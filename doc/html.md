@@ -3,15 +3,6 @@ table of contents](README.md)
 
 # The HTML
 
-## Conditional comment for Window Phone 7
-
-```html
-<!--[if IEMobile 7 ]>    <html class="no-js iem7" manifest="default.appcache?v=1"...> <![endif]-->
-<!--[if (gt IEMobile 7)|!(IEMobile)]><!--> <html class="no-js"...> <!--<![endif]-->
-```
-
-Conditional comment to add class `iem7` for Window Phone 7
-
 
 ## The `no-js` class
 
@@ -121,6 +112,14 @@ Makes the web page run in full screen mode when launched from the home screen ic
 ```
 
 Styles the bar at the top of the browser
+
+## Canonical link to the desktop version for SEO
+
+```html
+<link rel="canonical" href="http://www.example.com/" >
+```
+
+Websites with separate URLs for desktop and mobile websites need to have a canonical link on mobile site pointing back to the desktop version for SEO. More information on [Google Webmaster Docs](https://developers.google.com/webmasters/smartphone-sites/details#separateurls).
 
 ## More tags for your 'head'
 
